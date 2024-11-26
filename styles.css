@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', sans-serif; /* Retro font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Classic arcade black background */
+    color: white; /* Retro text is usually bright */
+}
+
+#start-screen {
+    text-align: center;
+}
+
+.start-text {
+    font-size: 24px; /* Adjust this for a pixelated size */
+    animation: blink 2s infinite; /* Text blinking effect */
+}
+
+/* Blinking animation */
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    50%, 100% {
+        opacity: 0;
+    }
+}
+
+/* General styles for portfolio */
+#portfolio {
+    color: white; /* Retro look */
+    text-align: center; /* Center-align text */
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    font-size: 14px;
+}
